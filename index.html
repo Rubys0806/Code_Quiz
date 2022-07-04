@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!--Css-->
+    <link rel="stylesheet" href="./Develop/style.css" />
+
+    <title>Coding Quiz</title>
+  </head>
+
+ <body>
+    <header class="top display">
+      <button class="scores" id="highscores">Highscores</button>
+      <p class="time" id="timer"></p>
+    </header>
+    
+    <main>
+    
+    <h1 class="title" id="maintitle">Coding Quiz Challenge</h1>
+    <p class="intro" id="instructions"> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+    <button class="startBtn" id="start">Start Quiz</button>
+
+    <ul class="list" id="answers"> </ul>
+
+    <div id="endscreen">
+        <h2 id="endTitle"> All Done! </h2>
+        <p id="final">Your final score is: <span id="finalScore"> </span> </p>
+        <p>Enter initials here:</p>
+        <input type="text" id="initials"/>
+        <button id="submitScores">Submit</button>
+    </div>
+
+    <div id="highscoreDisplay">
+        <h3 id="highscoreTitle">Highscores:</h3>
+        <ol class="list" id="scoreList"> </ol>
+        <button id="back">Go Back</button>
+        <button id="clearHighScore"> Clear Highscores </button>
+    </div>
+
+    </main> 
+
+
+</body>
+</html> 
