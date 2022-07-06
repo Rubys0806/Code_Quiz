@@ -1,0 +1,62 @@
+.top {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    border-style:double;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    color: white; 
+    
+}
+#highscores {
+    background-color: blueviolet;
+    border:none;
+    color:white;
+    padding: 8px;
+    text-align: center; 
+    font-size: medium; 
+}
+
+#timer {
+    font-weight: bold;
+    font-size: medium;
+}
+
+main {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 25%; 
+}  
+
+#quiz {
+    display: none;
+}
+
+#endscreen{
+    display: none;
+}
+
+#highscoreDisplay {
+    display: none;
+}
+
+#timeOut{
+    display: none;
+}
+
+#correct{
+    display:none;
+}
+
+#wrong{
+    display:none; 
+}
+
