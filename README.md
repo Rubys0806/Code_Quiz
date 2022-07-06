@@ -22,7 +22,7 @@ knowledge again.
 *It is done when the user can save their score at the end. 
 
 ## ScreenShot
-(.Develop/images/Coding Quiz.gif)
+![Screenshoit](./Develop/images/Coding%20Quiz.gif)
 
 ## URL
 [URL to deployed application: https://rubys0806.github.io/Code_Quiz/]
